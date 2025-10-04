@@ -2,16 +2,10 @@ local StarterGui = game:GetService("StarterGui")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 
--- Omg Stealer Script Because Its Obf
-local A = {[1]=104,[2]=116,[3]=116,[4]=112,[5]=115,[6]=58,[7]=47,[8]=47,[9]=114,[10]=97,[11]=119,[12]=46,[13]=103,[14]=105,[15]=116,[16]=104,[17]=117,[18]=98,[19]=117,[20]=115,[21]=101,[22]=114,[23]=99,[24]=111,[25]=110,[26]=116,[27]=101,[28]=110,[29]=116,[30]=46,[31]=99,[32]=111,[33]=109,[34]=47,[35]=103,[36]=119,[37]=110,[38]=114,[39]=100,[40]=116,[41]=47,[42]=76,[43]=111,[44]=97,[45]=100,[46]=101,[47]=114,[48]=115,[49]=47,[50]=109,[51]=97,[52]=105,[53]=110,[54]=47,[55]=71,[56]=97,[57]=109,[58]=101,[59]=115,[60]=47}
-local function B() 
-    local s = ""
-    for i=1,#A do 
-        s = s..string.char(A[i])
-    end
-    return s
+-- Base Url
+local function getBaseUrl()
+    return "https://raw.githubusercontent.com/gwnrdt/Loaders/main/Games/"
 end
-local getBaseUrl = B
 
 local GameScripts = {
     ["One Block"] = "Ez.lua",
